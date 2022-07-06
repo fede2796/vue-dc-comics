@@ -5,6 +5,7 @@
     <main>
       <ProductList />
     </main>
+    <PageFooter />
   </div>
  
 </template>
@@ -12,6 +13,7 @@
 <script>
 import PageHeader from "./components/PageHeader.vue";
 import ProductList from "./components/ProductList.vue";
+import PageFooter from "./components/PageFooter.vue";
 
 
 export default {
@@ -19,6 +21,7 @@ export default {
   components: {
     PageHeader,
     ProductList,
+    PageFooter
 }
 }
 </script>

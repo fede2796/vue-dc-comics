@@ -1,16 +1,22 @@
 <template>
 <section>
-    <div class="container">
+    <div>
         <div class="products">
-            <span>--> Content goes here  </span>
+            <div class="container">
+                 <span> -->Content goes here  </span>
+            </div>
+           
         </div>
         <ul class="dc-menu">
-            <li v-for="link, index in productsLink" :key="index">
+            <div class="container menu">
+                 <li v-for="link, index in productsLink" :key="index">
                 <img :src="link.image" :alt="link.alt">
                 <a :href="link.url">
                     {{link.text.toLocaleUpperCase()}}
                 </a>
             </li>
+            </div>
+           
         </ul>
     </div>
 </section>
@@ -74,6 +80,9 @@ section{
         background-color: $dcmenu_main_color ;
         padding: 30px 10px;
         display: flex;
+        .menu{
+            display: flex;
+        }
         li{
             padding: 0 10px ;
             justify-content: center;
