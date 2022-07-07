@@ -215,6 +215,7 @@ footer{
             img{
                 width: 350px;
                 padding-bottom: 20px;
+                background-size: cover;
             }
         }
     }

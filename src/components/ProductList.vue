@@ -3,7 +3,7 @@
     <div>
         <div class="products">
             <div class="container">
-                 <span> -->Content goes here  </span>
+                
             </div>
            
         </div>
