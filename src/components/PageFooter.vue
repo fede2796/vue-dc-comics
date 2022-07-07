@@ -214,6 +214,7 @@ footer{
             margin-left: 200px;
             img{
                 width: 350px;
+                margin-left: 400px;
                 padding-bottom: 20px;
                 background-size: cover;
             }

@@ -84,7 +84,7 @@ section{
             display: flex;
         }
         li{
-            padding: 0 10px ;
+            padding: 0 40px ;
             justify-content: center;
            img{
             width: 50px;
